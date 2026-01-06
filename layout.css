@@ -1,0 +1,22 @@
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .site-header,
+  .page-intro,
+  .projects {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
